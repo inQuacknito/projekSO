@@ -2,7 +2,7 @@
 #include <pthread.h>
 #include <stdlib.h>
 
-int N,count=2;
+int N;
 
 void *fibonacci(void *arg){
 	int *A = (int*)arg;				// cast void* --> int*
