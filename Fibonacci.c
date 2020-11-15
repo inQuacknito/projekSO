@@ -16,7 +16,7 @@ void *fibonacci(void *arg){
 
 int main(){
 	pthread_t child;
-	scanf("%d",&N);
+	scanf("%d",&N);	// input bilangan fibonacci ke-N
 	
 	int A[N+2], i;
 	A[0] = 0; 
@@ -34,5 +34,3 @@ int main(){
 	
 	return 0;
 }
-
-
