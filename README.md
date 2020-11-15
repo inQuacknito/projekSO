@@ -58,4 +58,4 @@ int main(){
 }
 ```
 ### Penjelasan Implementasi :
-ipb.link/so-kelompok6
+<a href="ipb.link/so-kelompok6">Link Google slides</a>
