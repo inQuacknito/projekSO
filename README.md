@@ -24,7 +24,7 @@ Write a multithreaded program that generates the Fibonacci sequence. This progra
 #include <pthread.h>
 #include <stdlib.h>
 
-int N,count=2;
+int N;
 
 void *fibonacci(void *arg){
 	int *A = (int*)arg;				// cast void* --> int*
@@ -38,7 +38,7 @@ void *fibonacci(void *arg){
 
 int main(){
 	pthread_t child;
-	scanf("%d",&N);
+	scanf("%d",&N);	// input bilangan fibonacci ke-N
 	
 	int A[N+2], i;
 	A[0] = 0; 
